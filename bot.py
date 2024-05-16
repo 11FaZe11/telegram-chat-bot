@@ -2,7 +2,7 @@ import telebot
 from typing import final
 from main import load_knowledge_base, get_answer, add_to_knowledge_base
 
-Token :final = "6792024677:AAEEHmBrkBLNJXsy7BcWgP_x3Hw5Z8AywEI"
+Token :final = "Your bot token"
 bot = telebot.TeleBot(Token)
 
 @bot.message_handler(commands=['start', 'help'])
